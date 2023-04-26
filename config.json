@@ -1,0 +1,20 @@
+{
+    "BOT":{
+        "ID":"BOT_ID",
+        "TOKEN":"BOT_TOKEN"
+    },
+
+    "DEF_RAID":{
+        "SERVER_NAME":"Nombre para el server",
+        "SERVER_ICON":"LINK IMAGEN",
+        "SERVER_BANNER":"LINK_IMAGEN",
+        "SERVER_INVITE":"discord.gg/Q5kchSQpsW",
+        "AMOUNT_CHANNELS": 200,
+        "AMOUNT_PINGS": 20,
+        "MESSAGE_PER_CHANNEL":"MENSAJE POR CANAL EJEMPLO: (Raideados por tu puta madre)",
+        "CHANNELS_NAME":"Nombre-Para-Los-Canales",
+        "ADMIN_ALL?": false,
+        "Función_ADMIN_ALL?": "(Esto es un Comentario, no requiere removerlo ni editarlo): ADMIN_ALL?:  Otorga Administrador a Todo el servidor al Entrar, (true (Si), false(No))"
+        
+    }
+}
