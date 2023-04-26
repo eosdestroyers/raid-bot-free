@@ -14,7 +14,6 @@ SPAM_MESSAGE = ["@everyone mensaje que quieres que spammee (no quites el everyon
 SET_NAME = ["nombre de el servidores"]
 SET_ICON = ["enlace de una foto o gif"]
 
-client = commands.Bot(command_prefix=".")
 
 keep_alive()
 @client.event
@@ -46,7 +45,7 @@ async def STOP(ctx):
 
 #Nuke
 @client.command()
-async def nuke(ctx):
+async def .nuke(ctx):
     await ctx.message.delete()
     guild = ctx.guild
 
