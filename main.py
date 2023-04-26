@@ -14,6 +14,8 @@ SPAM_MESSAGE = ["@everyone mensaje que quieres que spammee (no quites el everyon
 SET_NAME = ["nombre de el servidores"]
 SET_ICON = ["enlace de una foto o gif"]
 
+intents = discord.Intents.all()
+bot = commands.Bot(command_prefix="."
 
 keep_alive()
 @client.event
